@@ -1,8 +1,8 @@
 /*
   TRABALHO TDA - 2025.2
-  Dupla: Guilherme Costa de Oliveira e Marconi José Batista de Oliveira
   Tema: Arrays e Strings
-*/
+  Dupla: Guilherme Costa de Oliveira e Marconi José Batista de Oliveira Filho
+  */
 
 #include <stdio.h>
 
@@ -28,3 +28,4 @@ int main() {
 
     return 0;
 }
+
