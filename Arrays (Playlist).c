@@ -8,15 +8,23 @@
 
 int main() {
     int visualizacoes[3] = {15000, 32000, 85000};
-    
     char artista[] = "The Weeknd";
+    int i; 
 
-    printf("Top 3 Musicas mais ouvidas de: %s\n", artista);
+    printf("=== SPOTIFY CHARTS ===\n");
+    printf("Artista selecionado: %s\n", artista);
+    printf("Vamos revelar o Top 3 mensal...\n");
     printf("---------------------------------\n");
 
-    for(int i = 0; i < 3; i++) {
-        printf("Faixa %d teve %d plays este mes.\n", i+1, visualizacoes[i]);
+    for(i = 0; i < 3; i++) {
+        printf("\n[Pressione ENTER para revelar o Top %d...]", i+1);
+        getchar();
+      
+        printf(">>> SUCESSO! A faixa #%d teve %d plays.\n", i+1, visualizacoes[i]);
     }
+
+    printf("\n---------------------------------\n");
+    printf("Todas as estatisticas foram mostradas.\n");
 
     return 0;
 }
